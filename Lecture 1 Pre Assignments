@@ -1,0 +1,63 @@
+# Imperative programmeringssprog  
+
+## Liste over imperative programmeringssprog  
+- **C**  
+- **C++**  
+- **Java**  
+- **Python** (har imperative elementer, men også OOP og funktionelle træk)  
+- **Go**  
+- **Rust**  
+- **Pascal**  
+- **Fortran**  
+- **COBOL**  
+- **Ada**  
+- **Swift**  
+- **JavaScript**  
+- **Objective-C**  
+- **Basic**  
+- **Modula-2**  
+- **Perl**  
+- **PHP**  
+- **Lua**  
+- **Kotlin**  
+- **D**  
+
+## Hvordan ved jeg, at de er imperative?  
+Et programmeringssprog er **imperativt**, hvis det beskriver **hvordan** en opgave skal udføres, snarere end **hvad** resultatet skal være.  
+
+### Karakteristika for imperative sprog  
+- **Sekventiel udførelse af instruktioner**  
+  - Eksempel:  
+    ```c
+    a = 5;  
+    b = a + 2;
+    ```  
+- **Brug af variabler og tilstand**  
+  - Eksempel:  
+    ```c
+    x = x + 1;
+    ```  
+- **Kontrolstrukturer** (`if`, `for`, `while`, `switch`)  
+- **Funktioner eller procedurer** (ofte med side effects)  
+
+## Ligheder mellem Algol 60 og C  
+Algol 60 var en af de første højniveau imperative programmeringssprog og påvirkede C på flere måder:  
+
+1. **Blokstruktur**  
+   - Begge sprog har en blokbaseret syntaks:  
+     - C: `{ ... }`  
+     - Algol 60: `begin ... end`  
+
+2. **Kontrolstrukturer**  
+   - Både Algol 60 og C har `if`, `while`, `for`-løkker.  
+
+3. **Procedurekald**  
+   - Algol 60 og C understøtter funktioner med parametre.  
+
+4. **Operatorer og udtryk**  
+   - Algol 60 introducerede mange af de aritmetiske og logiske operatorer, som C også bruger.  
+
+5. **Imperativ stil**  
+   - Begge sprog fokuserer på sekventiel eksekvering med tildelinger og tilstand.  
+
+**Bemærk:** C har dog pointere og lavniveaufunktioner, som Algol 60 ikke havde.
